@@ -1,0 +1,48 @@
+@import "./bootstrap.css";
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.topo{
+ height: 68px;
+}
+.notif{
+ top: 5px !important;
+ right: -5px !important;
+}
+.titulo-nav h1{
+    font-size: 1.2rem;
+}
+.titulo-nav p{
+    font-size: 0.9rem;
+}
+#menu>.list-group a:first-child{
+    border-top: 0px;
+}
+#menu>.list-group a{
+    border-right: 0px;
+    border-left: 0px;
+}
+#menu a:hover{
+  border-left: 6px solid var(--bs-primary);
+}
+#menu a:focus{
+    border-left: 6px solid var(--bs-primary);
+  }
+#fixa{
+    box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.236);
+    z-index: 999;
+}
+
+  .h68{
+      height: 68px;
+  }
+  #conteudo h2{
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--bs-primary);
+
+  }
+  #parte2{
+      max-height: 545px;
+  }
