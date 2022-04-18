@@ -1,0 +1,68 @@
+#discussao input[type="radio"]{
+    display: none;
+}
+
+/* estado inicial*/
+#criart{
+    display: block;
+}
+#envia{
+    display: none;
+}
+#foi{
+    display: none;
+}
+
+/*o que acontece ao clicar "criar topico" */
+#troca1:checked ~ #criart{
+     display:none;
+}
+#troca1:checked ~ #envia{
+    display: block;
+}
+#troca1:checked ~ #foi{
+    display: none;
+}
+
+/*o que acontece ao clicar "enviar" */
+#troca2:checked ~ #criart{
+    display:none;
+}
+#troca2:checked ~ #envia{
+   display: none;
+}
+#troca2:checked ~ #foi{
+   display: block;
+}
+/*o que acontece ao clicar "criar novo topico" */
+#troca3:checked ~ #criart{
+    display:none;
+}
+#troca3:checked ~ #envia{
+   display: block;
+}
+#troca3:checked ~ #foi{
+   display: none;
+}
+/*fim trocar pagina*/
+
+/* risco atrás do botão */
+#discussao #criart hr,
+#discussao #foi hr{
+    position: absolute;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: 3px;
+}
+#barra{
+    background-color:  var(--bs-gray-400);
+}
+/*colocando desfoque*/
+#desfoque {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+}
