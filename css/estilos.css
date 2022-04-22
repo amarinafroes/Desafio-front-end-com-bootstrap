@@ -1,6 +1,7 @@
 @import "./bootstrap.css";
 @import "./card.css";
 @import "./discussoes.css";
+@import "./layout.css";
 
 body{
     font-family: 'Roboto', sans-serif;

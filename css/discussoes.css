@@ -66,3 +66,12 @@
     height: 100%;
     backdrop-filter: blur(5px);
 }
+/* icones */
+.icones-discussao{
+    display: inline-flex;
+    gap: 52px;
+}
+.icones-discussao img{
+    max-width: 50px;
+    
+}
