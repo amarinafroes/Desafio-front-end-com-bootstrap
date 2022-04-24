@@ -3,46 +3,109 @@
 @import "./discussoes.css";
 @import "./layout.css";
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
-.topo{
- height: 68px;
+.topo {
+  height: 68px;
 }
-.notif{
- top: 5px !important;
- right: -5px !important;
+.notif {
+  top: 5px !important;
+  right: -5px !important;
 }
-.titulo-nav h1{
-    font-size: 1.2rem;
+.titulo-nav h1 {
+  font-size: 1.2rem;
 }
-.titulo-nav p{
-    font-size: 0.9rem;
+.titulo-nav p {
+  font-size: 0.9rem;
 }
-#menu>.list-group a:first-child{
-    border-top: 0px;
+#menu > .list-group a:first-child {
+  border-top: 0px;
 }
-#menu>.list-group a{
-    border-right: 0px;
-    border-left: 0px;
+#menu > .list-group a {
+  border-right: 0px;
+  border-left: 0px;
 }
-#menu a:hover{
+#menu a:hover {
   border-left: 6px solid var(--bs-primary);
 }
-#menu a:focus{
-    border-left: 6px solid var(--bs-primary);
-  }
-#fixa{
-    box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.236);
-    z-index: 999;
+#menu a:focus {
+  border-left: 6px solid var(--bs-primary);
+}
+#fixa {
+  box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.236);
+  z-index: 999;
 }
 
-  .h68{
-      height: 68px;
-  }
-  #conteudo h2{
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: var(--bs-primary);
+#fixa .list-group a {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.938rem;
+  color: #725c5c;
+  font-weight: bold;
+}
+#fixa h2 {
+  font-size: 1.875rem !important;
+}
+.h68 {
+  height: 68px;
+}
+#conteudo h2 {
+  font-size: 20px !important;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--bs-primary);
+}
 
-  }
+.bgg {
+  background-image: linear-gradient(#ffb354, #ef7b3b);
+}
+
+.btn-chuva {
+  font-family: "Quicksand", sans-serif;
+  height: 32px;
+  line-height: normal;
+}
+
+.t-pergunta {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem !important;
+}
+
+.a-pergunta {
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px !important;
+}
+
+.p-pergunta {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px !important;
+}
+
+.p-react{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px !important;
+}
+
+.f12{
+    font-size: 12px !important;
+}
+
+.f14{
+    font-size: 14px !important;
+}
+.f16{
+    font-size: 16px !important;
+}
+.f18{
+    font-size: 18px !important;
+}
+
+.f22{
+    font-size: 22px !important;
+}
+
+.ffqs{
+    font-family: "Quicksand", sans-serif;
+}

@@ -53,10 +53,10 @@
     width: 95%;
     left: 50%;
     transform: translate(-50%,-50%);
-    bottom: 3px;
+    bottom: -2px;
 }
 #barra{
-    background-color:  var(--bs-gray-400);
+    background-color:  #eaf1f2;
 }
 /*colocando desfoque*/
 #desfoque {

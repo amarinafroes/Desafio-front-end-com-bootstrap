@@ -1,4 +1,26 @@
-#fixa{
-    width: 16.1054172767% ;
+@media (min-width: 576px) {
+}
 
+@media (min-width: 888px) {
+  nav {
+    height: 68px;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    height: 68px;
+  }
+  .card1 {
+    height: 461px;
+  }
+  #fixa {
+    width: 16.1054172767% !important;
+  }
+  .ms-45{
+      margin-left: 45px !important;
+  }
+  .ms-31{
+      margin-left: 31px !important;
+  }
 }

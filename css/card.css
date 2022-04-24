@@ -1,57 +1,64 @@
-.card1{
-    height: 440px;
+.card1 .card-header {
+  height: 11%;
 }
-.card1 .card-header{
-    height: 11%;
-}
-.card1 .card-body{
-    height: 89%;
-    padding-right: 5px;
+.card1 .card-body {
+  height: 89%;
+  padding-right: 5px;
 }
 
-.card1 ::-webkit-scrollbar{
- width: 7px;
+.card1 ::-webkit-scrollbar {
+  width: 7px;
 }
-.card1 ::-webkit-scrollbar-track{
-    background: rgb(236, 236, 236);
-    border-radius: 5px;
+.card1 ::-webkit-scrollbar-track {
+  background: rgb(236, 236, 236);
+  border-radius: 5px;
 }
-.card1 ::-webkit-scrollbar-thumb{
- background: rgb(211, 211, 211);
- border-radius: 5px;
+.card1 ::-webkit-scrollbar-thumb {
+  background: rgb(211, 211, 211);
+  border-radius: 5px;
 }
-.card1 ::-webkit-scrollbar-thumb:hover{
-    background: rgb(128, 128, 128);
+.card1 ::-webkit-scrollbar-thumb:hover {
+  background: rgb(128, 128, 128);
+}
+.psm {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.75rem;
+}
+.psm-autores {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.875rem;
+}
+.card2 .card-body p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.875rem;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.card2 input {
+  display: none;
+}
+.card2 input:checked ~ .card-text {
+  display: block;
+}
+.card2 .card-body input:checked ~ label::after {
+  content: "ver menos";
+}
+.card2 .card-body input ~ label::after {
+  content: "ver mais";
+}
+.card2 .card-body label:hover {
+  color: var(--bs-info);
+  cursor: pointer;
+}
+.card2 .card-body label {
+  color: var(--bs-primary);
+  font-weight: bold;
+}
 
-}
-.psm{
-    font-size: 0.9rem;
-}
-.card2 .card-body p{
-   -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    overflow: hidden;
-}
-.card2 input{
-    display: none;
-}
-.card2 input:checked ~ .card-text{
-    display: block;
-}
-.card2 .card-body input:checked ~ label::after{
-    content: "ver menos";  
-     
-}
-.card2 .card-body input ~ label::after{
-    content: "ver mais"; 
-}
-.card2 .card-body label:hover{
-    color: var(--bs-info);
-    cursor: pointer;  
-     
-}
-.card2 .card-body label{
-    color: var(--bs-primary);  
-    font-weight: bold;
+.card-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem !important;
+  color: #4e4e4e;
 }
